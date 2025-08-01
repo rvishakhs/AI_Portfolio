@@ -62,11 +62,11 @@ export default function Home() {
   };
 
   useEffect(() => {
-    // Précharger les assets du chat en arrière-plan
+    // Preload chat assets in the background
     const img = new window.Image();
     img.src = '/landing-memojis.png';
 
-    // Précharger les vidéos aussi
+    // Preload videos as well
     const linkWebm = document.createElement('link');
     linkWebm.rel = 'preload'; // Note: prefetch au lieu de preload
     linkWebm.as = 'video';
@@ -88,7 +88,7 @@ export default function Home() {
           className="hidden bg-gradient-to-b from-neutral-500/10 to-neutral-500/0 bg-clip-text text-[10rem] leading-none font-black text-transparent select-none sm:block lg:text-[16rem]"
           style={{ marginBottom: '-2.5rem' }}
         >
-          Toukoum
+          Visakh
         </div>
       </div>
 
@@ -99,7 +99,7 @@ export default function Home() {
           animationDuration={1.5}
           label="Star"
           size={'sm'}
-          repoUrl="https://github.com/toukoum/portfolio"
+          repoUrl="https://github.com/rvishakhs"
         />
       </div>
 
