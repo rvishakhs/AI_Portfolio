@@ -7,12 +7,12 @@ import React from 'react';
 export function Presentation() {
   // Personal information
   const profile = {
-    name: 'Raphael Giraud',
-    age: '21 years old',
-    location: 'Paris, France',
+    name: 'Visakh Nair',
+    age: '28 Years Old',
+    location: 'London, Uk',
     // Add a newline character after the emoji
     description:
-      "Hey 👋\nI'm Raph also known as Toukoum. I'm a developer specializing in AI at 42 Paris. I'm working at LightOn AI in Paris. I'm passionate about AI, tech, Entrepreneurship and SaaS tech.",
+      "Hey 👋 My name is Visakh I'm a passionate web developer. Interested in Tech and AI innovations ",
     src: '/profil-raph.png',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',

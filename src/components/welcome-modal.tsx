@@ -37,7 +37,7 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
         alt="Logo"
         className="w-6 md:w-8"
       />
-      <span className="sr-only">About Toukoum</span>
+      <span className="sr-only">About Me</span>
     </Button>
   );
 
@@ -108,8 +108,8 @@ export default function WelcomeModal({ trigger }: WelcomeModalProps) {
                     Why ???
                   </h3>
                   <p className="text-accent-foreground text-base leading-relaxed">
-                    Traditional portfolios can be limiting. <br /> They can't
-                    adapt to every visitor's specific needs. <br /> My portfolio
+                    Traditional portfolios can be boring. <br /> They can't
+                    be interactive and adapt to every visitor's needs. <br /> My portfolio
                     becomes{' '}
                     <strong>
                       exactly what you're interested in knowing about me and my
