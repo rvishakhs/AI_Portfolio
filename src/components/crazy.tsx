@@ -6,9 +6,9 @@ import { Photos, PhotoItem } from './photos';
 const Crazy = () => {
   const sportPhotos: PhotoItem[] = [
     {
-      src: '/blancmont.JPG',
-      alt: 'Mont Blanc',
-      caption: 'On top of Mont Blanc (me in blue behind)',
+      src: '/vis_nc.jpg',
+      alt: 'North Coast 500',
+      caption: 'On the North Coast 500 (Exploring and wandering)',
     },
   ];
 
@@ -16,7 +16,7 @@ const Crazy = () => {
     <div className="mx-auto w-full">
       <div className="mb-8">
         <h2 className="text-foreground text-3xl font-semibold md:text-4xl">
-          Mont Blanc (4810m)
+          North Coast 500
         </h2>
       </div>
       <Photos photos={sportPhotos} />

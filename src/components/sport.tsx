@@ -6,47 +6,40 @@ import { Photos, PhotoItem } from './photos';
 const Sports = () => {
   const sportPhotos: PhotoItem[] = [
     {
-      src: '/podium.jpg',
-      alt: 'On the podium after a mountain bike race',
-      caption: 'Celebrating a podium finish 3rd at the famous Roc d\'Azur',
+      src: '/vis_nc.jpg',
+      alt: 'Completed Scotland North Coast 500',
+      caption: 'Explored the stunning North Coast 500 in Scotland with my mini cooper',
     },
     {
-      src: '/levens.JPG',
-      alt: 'Racing in Levens',
-      caption: 'Competing in the mountain bike world cup in Levens with some clean conditions ahah',
+      src: '/vis_3.jpg',
+      alt: 'Jhon o Groats',
+      caption: 'Visited Jhon o Groats, the northernmost point of mainland UK',
     },
     {
-      src: '/marseille.JPG',
-      alt: 'Racing in Marseille',
-      caption: 'Pushing limits at the Marseille World cup',
+      src: '/vis_4.jpg',
+      alt: 'My PC setup',
+      caption: 'Nothing beats a good PC setup for work and play',
     },
     {
-      src: '/transmo.JPG',
-      alt: 'Racing in the Transmaurienne',
-      caption: 'On the start line for the Transmaurienne Race in the french Alps',
+      src: '/vis_2.jpg',
+      alt: 'Exploring the Scottish Highlands',
+      caption: 'Hiking in the Scottish Highlands, enjoying the breathtaking views',
     },
     {
-      src: '/ploeuc.jpg',
-      alt: 'Racing in the World Cup',
-      caption: 'French championship in Ploeuc',
+      src: '/vis_5.jpg',
+      alt: 'Ullapool costal village',
+      caption: 'Visited the picturesque coastal village of Ullapool',
     },
-    {
-      src: '/gueret.jpg',
-      alt: 'Racing in the World Cup',
-      caption: 'World cup in Gueret',
-    }
   ];
 
   return (
     <div className="mx-auto w-full">
       <div className="mb-8">
         <h2 className="text-foreground text-3xl font-semibold md:text-4xl">
-          My Sporting Career
+          My Travelling Journey
         </h2>
         <p className="mt-4 text-muted-foreground">
-          Before focusing on development, I competed at a high level in mountain biking, 
-          reaching Top 15 in the Junior World Cup and Top 10 in French Cup. Here are some highlights from my 
-          athletic journey.
+          Same as my career, my travelling journey has been a mix of adventures and challenges. From exploring the Scottish Highlands to visiting the northernmost point of mainland UK, each trip has added a new chapter to my story. Here are some highlights:
         </p>
       </div>
       <Photos photos={sportPhotos} />
