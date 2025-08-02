@@ -13,15 +13,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Toukoum Portfolio",
+  title: "Visakh Portfolio",
   description: "Interactive portfolio with an AI-powered Memoji that answers questions about me, my skills, and my experience",
   keywords: [
-    "Toukoum", 
-    "Portfolio", 
-    "Developer", 
+    "Visakh",
+    "Portfolio",
+    "Developer",
     "AI", 
     "Interactive", 
-    "Memoji", 
     "Web Development",
     "Full Stack",
     "Next.js",
@@ -29,16 +28,16 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Toukoum",
-      url: "https://toukoum.fr",
+      name: "Visakh",
+      url: "https://visakhsr.com",
     },
   ],
-  creator: "Toukoum",
+  creator: "Visakh",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://toukoum.fr",
-    title: "Toukoum Portfolio",
+    url: "https://visakhsr.com",
+    title: "Visakh Portfolio",
     description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
     siteName: "Toukoum Portfolio",
   },
