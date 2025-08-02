@@ -23,17 +23,17 @@ const InternshipCard = () => {
           {/* Avatar placeholder */}
           <div className="bg-muted h-16 w-16 overflow-hidden rounded-full shadow-md">
             <img
-              src="/avatar-raphael.jpg"
-              alt="Raphael's avatar"
+              src="/landing-memojis.png"
+              alt="Visakh's avatar"
               className="h-full w-full object-cover"
             />
           </div>
           <div>
             <h2 className="text-foreground text-2xl font-semibold">
-              Raphael Giraud
+              Visakh Nair
             </h2>
             <p className="text-muted-foreground text-sm">
-              Intership Application
+              Job Application
             </p>
           </div>
         </div>
@@ -55,10 +55,7 @@ const InternshipCard = () => {
         <div className="flex items-start gap-3">
           <CalendarDays className="mt-1 h-5 w-5 text-blue-500" />
           <div>
-            <p className="text-foreground text-sm font-medium">Duration</p>
-            <p className="text-muted-foreground text-sm">
-              6 months – starting September 2025 (fall 2025)
-            </p>
+            <p className="text-foreground text-sm font-medium">Full Time</p>
           </div>
         </div>
         <div className="flex items-start gap-3">
@@ -66,7 +63,7 @@ const InternshipCard = () => {
           <div>
             <p className="text-foreground text-sm font-medium">Location</p>
             <p className="text-muted-foreground text-sm">
-              Preferably San Francisco 🇺🇸
+              Preferably London, any where in the UK
             </p>
           </div>
         </div>
@@ -78,8 +75,9 @@ const InternshipCard = () => {
             <p className="text-foreground text-sm font-medium">Tech stack</p>
             <div className="text-muted-foreground grid grid-cols-1 gap-y-1 text-sm sm:grid-cols-2">
               <ul className="decoration-none list-disc pl-4">
-                <li>Python, Next.js, TypeScript, Tailwind CSS</li>
-                <li>Vercel AI SDK, Supabase, Prisma</li>
+                <li>Python, JavaScript, TypeScript</li>
+                <li>React, Angular, Node.js, Next.js</li>
+                <li>PyTorch, Tensorflow, scikit-learn</li>
                 <li>OpenAI, Mistral, Claude, Whisper</li>
                 <li>Prompt engineering, fine-tuning</li>
               </ul>
@@ -108,10 +106,10 @@ const InternshipCard = () => {
           What I bring
         </p>
         <p className="text-foreground text-sm">
-          Real-world AI dev experience from Lighton (MCP, secure GPTs, RAG
-          pipelines). <br /> 3x hackathon wins (ETH Oxford, Paris Blockchain
-          Week, Colosseum Breakout on Solana). <br /> I ship fast, and love
-          building useful things that actually work.
+          I’m a self-taught full-stack developer with a deep passion for building things that work fast, scalable, and meaningful. Over the past 5+ years, I’ve taken ideas from scratch to deployment,<br />
+          whether it’s scaling an e-commerce platform to handle millions in sales, crafting AI tools that understand human emotion, or building scraping engines powered by modern LLMs.<br/>
+          I thrive in fast-moving environments, constantly learning and applying the latest tools for me, <br />
+          coding isn’t just a job it’s a craft I’ve grown into through late nights, real-world problem-solving, and a genuine love for creating impactful software.
         </p>
       </div>
 
