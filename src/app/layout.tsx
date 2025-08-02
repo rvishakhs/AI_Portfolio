@@ -33,20 +33,20 @@ export const metadata: Metadata = {
     },
   ],
   creator: "Visakh",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://visakhsr.com",
-    title: "Visakh Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    siteName: "Toukoum Portfolio",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Toukoum Portfolio",
-    description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
-    creator: "@toukoum",
-  },
+  // openGraph: {
+  //   type: "website",
+  //   locale: "en_US",
+  //   url: "https://visakhsr.com",
+  //   title: "Visakh Portfolio",
+  //   description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
+  //   siteName: "Toukoum Portfolio",
+  // },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Toukoum Portfolio",
+  //   description: "Interactive portfolio with an AI-powered Memoji that answers questions about me",
+  //   creator: "@toukoum",
+  // },
   icons: {
     icon: [
       {

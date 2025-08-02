@@ -41,7 +41,7 @@ export async function POST(req: Request) {
       getSkills,
       getSports,
       getCrazy,
-      // getInternship,
+      getInternship,
     };
 
     const result = streamText({

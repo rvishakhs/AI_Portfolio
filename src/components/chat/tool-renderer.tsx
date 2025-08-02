@@ -79,12 +79,12 @@ export default function ToolRenderer({
               </div>
             );
 
-          // case 'getInternship':
-          //   return (
-          //     <div key={toolCallId} className="w-full rounded-lg">
-          //       <InternshipCard />
-          //     </div>
-          //   );
+          case 'getInternship':
+            return (
+              <div key={toolCallId} className="w-full rounded-lg">
+                <InternshipCard />
+              </div>
+            );
 
           // Default renderer for other tools
           default:
