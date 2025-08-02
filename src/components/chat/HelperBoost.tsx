@@ -170,7 +170,7 @@ export default function HelperBoost({
   return (
     <>
       <Drawer.Root open={open} onOpenChange={setOpen}>
-        <div className="w-full bg-accent-foreground">
+        <div className="w-full bg-white">
           {/* Toggle Button */}
           <div
             className={
@@ -253,7 +253,7 @@ export default function HelperBoost({
         <Drawer.Portal>
           <Drawer.Overlay className="fixed inset-0 z-100 bg-black/60 backdrop-blur-xs" />
           <Drawer.Content className="fixed right-0 bottom-0 left-0 z-100 mt-24 flex h-[80%] flex-col rounded-t-[10px] bg-gray-100 outline-none lg:h-[60%]">
-            <div className="flex-1 overflow-y-auto rounded-t-[10px] bg-black p-4 scroll-hidden">
+            <div className="flex-1 overflow-y-auto rounded-t-[10px] bg-white p-4 scroll-hidden">
               <div className="mx-auto max-w-md space-y-4">
                 <div
                   aria-hidden
