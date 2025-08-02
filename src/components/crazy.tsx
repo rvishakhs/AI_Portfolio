@@ -13,7 +13,7 @@ const Crazy = () => {
   ];
 
   return (
-    <div className="mx-auto w-full">
+    <div className="mx-auto w-full overflow-hidden">
       <div className="mb-8">
         <h2 className="text-foreground text-3xl font-semibold md:text-4xl">
           North Coast 500

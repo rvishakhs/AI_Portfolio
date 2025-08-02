@@ -200,7 +200,7 @@ export default function Home() {
           ))}
         </div>
       </motion.div>
-      {/* <FluidCursor /> */}
+      <FluidCursor />
     </div>
   );
 }

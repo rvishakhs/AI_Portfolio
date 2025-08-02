@@ -13,7 +13,7 @@ export function Presentation() {
     // Add a newline character after the emoji
     description:
       "Hey 👋 My name is Visakh I'm a passionate web developer. Interested in Tech and AI innovations ",
-    src: '/profil-raph.png',
+    src: '/profil-visakh.png',
     fallbackSrc:
       'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3',
   };
@@ -103,7 +103,7 @@ export function Presentation() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="mt-4 flex flex-wrap gap-2"
           >
-            {['AI', 'Developer', '42 Paris', 'Sport', 'SaaS Builder'].map(
+            {['AI', 'Developer', 'Full stack' , 'London', 'Tech Enthusiast', 'Travel'].map(
               (tag) => (
                 <span
                   key={tag}

@@ -170,7 +170,7 @@ export default function HelperBoost({
   return (
     <>
       <Drawer.Root open={open} onOpenChange={setOpen}>
-        <div className="w-full">
+        <div className="w-full bg-accent-foreground">
           {/* Toggle Button */}
           <div
             className={
@@ -253,7 +253,7 @@ export default function HelperBoost({
         <Drawer.Portal>
           <Drawer.Overlay className="fixed inset-0 z-100 bg-black/60 backdrop-blur-xs" />
           <Drawer.Content className="fixed right-0 bottom-0 left-0 z-100 mt-24 flex h-[80%] flex-col rounded-t-[10px] bg-gray-100 outline-none lg:h-[60%]">
-            <div className="flex-1 overflow-y-auto rounded-t-[10px] bg-white p-4">
+            <div className="flex-1 overflow-y-auto rounded-t-[10px] bg-black p-4 scroll-hidden">
               <div className="mx-auto max-w-md space-y-4">
                 <div
                   aria-hidden
@@ -337,7 +337,7 @@ function QuestionItem({ question, onClick, isSpecial }: QuestionItemProps) {
         'text-md px-6 py-4 text-left font-normal',
         'transition-all',
         'focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500',
-        isSpecial ? 'bg-black' : 'bg-[#F7F8F9]'
+        isSpecial ? 'bg-black' : 'bg-black/10 hover:bg-black/20',
       )}
       onClick={onClick}
       onHoverStart={() => setIsHovered(true)}

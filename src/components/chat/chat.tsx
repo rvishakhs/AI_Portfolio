@@ -338,10 +338,10 @@ const Chat = () => {
       </div>
 
       {/* Main Content Area */}
-      <div className="container mx-auto flex h-full max-w-3xl flex-col">
+      <div className="container mx-auto overflow-hidden flex h-full max-w-3xl flex-col">
         {/* Scrollable Chat Content */}
         <div
-          className="flex-1 overflow-y-auto px-2"
+          className="flex-1 overflow-y-auto px-2 scroll-hidden"
           style={{ paddingTop: `${headerHeight}px` }}
         >
           <AnimatePresence mode="wait">
@@ -379,7 +379,7 @@ const Chat = () => {
         </div>
 
         {/* Fixed Bottom Bar */}
-        <div className="sticky bottom-0 bg-white px-2 pt-3 md:px-0 md:pb-4">
+        <div className="sticky bottom-0 rounded-2xl bg-white px-2 pt-3 md:px-0 md:pb-4">
           <div className="relative flex flex-col items-center gap-3">
             <HelperBoost submitQuery={submitQuery} setInput={setInput} />
             <ChatBottombar
