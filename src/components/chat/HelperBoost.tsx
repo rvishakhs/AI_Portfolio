@@ -234,7 +234,7 @@ export default function HelperBoost({
                               //style={{ color: '#3B82F6' }}
                               strokeWidth={2}
                             />
-                            {/*<span className="text-sm font-medium">More</span>*/}
+                            <span className="text-sm font-medium">More</span>
                           </div>
                         </motion.div>
                       </Drawer.Trigger>

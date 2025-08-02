@@ -63,7 +63,7 @@ const InternshipCard = () => {
           <div>
             <p className="text-foreground text-sm font-medium">Location</p>
             <p className="text-muted-foreground text-sm">
-              Preferably London, any where in the UK
+              Preferably London, but any where in the UK
             </p>
           </div>
         </div>
